@@ -42,6 +42,7 @@ class SearchBar extends React.Component {
       <div className={cssClasses} ref={e => this.searchBar = e} role="search">
         <form className="search-form" onSubmit={this.handleSubmit} noValidate>
           <input
+            id="search-form__input"
             autoComplete="off"
             className="search-form__input"
             maxLength="60"
